@@ -1,0 +1,7 @@
+{
+    "version": 2,
+    "routes": [
+      { "src": "/api/otp/intercom-otp-webhook", "dest": "/api/otp.js" },
+      { "src": "/api/otp/verify-otp", "dest": "/api/otp.js" }
+    ]
+  }

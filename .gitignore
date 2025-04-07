@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+ 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+.now
+
+# Build directories
+dist/
+build/
+.next/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Debug
+.debug/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Local Netlify folder
+.netlify
